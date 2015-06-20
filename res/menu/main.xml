@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/menu_settings"
+            android:orderInCategory="1"
+            android:icon="@drawable/settings"
+            android:title="@string/menu_settings"/>
+    <item
+            android:id="@+id/menu_about"
+            android:orderInCategory="2"
+            android:icon="@drawable/clock"
+            android:title="@string/menu_about"/>
+    <item
+            android:id="@+id/menu_test1"
+            android:orderInCategory="3"
+            android:title="@string/menu_file"/>
+    <item
+            android:id="@+id/menu_test2"
+            android:orderInCategory="4"
+            android:title="@string/menu_edit"/>
+    <item
+            android:id="@+id/menu_test3"
+            android:orderInCategory="5"
+            android:title="@string/menu_code"/>
+    <item
+            android:id="@+id/menu_quit"
+            android:orderInCategory="6"
+            android:icon="@drawable/world"
+            android:title="@string/menu_quit"/>
+
+</menu>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- 菜单 -->
+    <string name="menu_file">文件</string>
+    <string name="menu_edit">编辑</string>
+    <string name="menu_code">代码</string>
+    <string name="menu_build">建立</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_quit">退出</string>
     <!--基础信息-->
     <string name="app_name">布局管理</string>
     <string name="loginName">登录名</string>

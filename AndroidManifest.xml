@@ -6,6 +6,8 @@
     <uses-sdk android:minSdkVersion="18"/>
     <!--访问Internet权限-->
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <!--读取手机联系人-->
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name="MainActivity"
                   android:label="@string/app_name">
@@ -28,5 +30,10 @@
         <activity android:name=".control.ControlSpinner"/>
         <activity android:name=".control.ControlListView"/>
         <activity android:name=".control.ControlListView1"/>
+        <activity android:name=".control.ControlGridView"/>
+        <activity android:name=".control.ControlGridView_SuDoKu"/>
+        <activity android:name=".control.ControlGallery"/>
+        <activity android:name=".http.Main"/>
+        <activity android:name=".http.DownloadImage"/>
     </application>
 </manifest>
