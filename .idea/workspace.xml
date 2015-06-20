@@ -57,45 +57,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: org.bond.hello" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbc7d97e-db15-4939-810e-9d92117a2e49" name="Default" comment="首次提交">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/address_book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/calendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/games_control.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/messenger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ringtone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/settings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/speech_balloon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/weather.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/world.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/util/CommonHttpClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/control/ControlGallery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/control/ControlGridView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/control/ControlGridView_SuDoKu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/http/DownloadImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/util/HttpURLConnectionUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/http/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/util/Maker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/model/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/ctl_gallery.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/ctl_gridview.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/ctl_gridview_sudoku.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/ctl_gridview_sudoku_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/http_download_image.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/http_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/bond/hello/control/ControlText.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/control/ControlText.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/bond/hello/MainActivity.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/ctl_text.xml" afterPath="$PROJECT_DIR$/res/layout/ctl_text.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+    <list default="true" id="dbc7d97e-db15-4939-810e-9d92117a2e49" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HelloWorld.iws" />
@@ -684,17 +646,21 @@
       <workItem from="1434768443023" duration="2592000" />
       <workItem from="1434775522923" duration="1808000" />
       <workItem from="1434778594939" duration="4043000" />
-      <workItem from="1434783555238" duration="23571000" />
+      <workItem from="1434783555238" duration="23598000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1434775903173</created>
       <updated>1434775903173</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="201606202342">
+      <created>1434814955511</created>
+      <updated>1434814955511</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105893000" />
+    <option name="totallyTimeSpent" value="105920000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -731,7 +697,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34150326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19894099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19894099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -800,7 +766,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="首次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
+    <MESSAGE value="201606202342" />
+    <option name="LAST_COMMIT_MESSAGE" value="201606202342" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
