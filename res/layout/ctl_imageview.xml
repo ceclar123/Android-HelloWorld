@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="40dp"
+               android:maxWidth="120dp" android:maxHeight="40dp"
+               android:scaleType="centerInside"
+               android:src="@drawable/ic_launcher"/>
+    <ImageView android:layout_width="match_parent" android:layout_height="40dp"
+               android:src="#ffff5a49"/>
+    <ImageView android:layout_width="match_parent" android:layout_height="40dp"
+               android:id="@+id/img_ctl_1"/>
+</LinearLayout>

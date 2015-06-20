@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <TableRow>
+        <Button android:width="100dp"
+                android:height="40dp"
+                android:text="Button1"
+                android:layout_column="1"/>
+        <Button android:width="100dp"
+                android:height="40dp"
+                android:text="Button2"
+                android:layout_column="1"/>
+        <Button android:width="100dp"
+                android:height="40dp"
+                android:text="Button3"
+                android:layout_column="1"/>
+    </TableRow>
+    <TableRow>
+        <Button android:width="100dp"
+                android:height="40dp"
+                android:text="Button4"
+                android:layout_column="1"/>
+        <Button android:width="100dp"
+                android:height="40dp"
+                android:text="Button5"
+                android:layout_column="1"/>
+        <Button android:width="100dp"
+                android:height="40dp"
+                android:text="Button6"
+                android:layout_column="1"/>
+    </TableRow>
+    <TableRow>
+        <Button android:width="100dp"
+                android:height="40dp"
+                android:text="Button7"
+                android:layout_column="1"/>
+    </TableRow>
+</TableLayout>

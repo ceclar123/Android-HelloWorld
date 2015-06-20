@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp">
+        <Button android:layout_width="100dp" android:layout_height="40dp"
+                android:text="百度"
+                android:id="@+id/btn_ctl_1"/>
+        <Button android:layout_width="100dp" android:layout_height="40dp"
+                android:text="Toast"
+                android:id="@+id/btn_ctl_2"/>
+        <Button android:layout_width="100dp" android:layout_height="40dp"
+                android:text="Alert"
+                android:id="@+id/btn_ctl_3"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp">
+        <Button android:layout_width="100dp" android:layout_height="40dp"
+                android:text="弹出输入"
+                android:id="@+id/btn_ctl_4"/>
+        <Button android:layout_width="100dp" android:layout_height="40dp"
+                android:text="弹出单选"
+                android:id="@+id/btn_ctl_5"/>
+        <Button android:layout_width="100dp" android:layout_height="40dp"
+                android:text="弹出多选"
+                android:id="@+id/btn_ctl_6"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp">
+        <Button android:layout_width="100dp" android:layout_height="40dp"
+                android:text="弹出选项"
+                android:id="@+id/btn_ctl_7"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp">
+        <ImageButton android:layout_width="100dp" android:layout_height="40dp"
+                     android:src="@drawable/ic_launcher"/>
+        <ToggleButton android:layout_width="100dp" android:layout_height="40dp"
+                      android:text="ToggleButton"
+                      android:textOn="Stop"
+                      android:textOff="Run"/>
+        <CheckBox android:layout_width="120dp" android:layout_height="40dp"
+                  android:text="CheckBox"
+                  android:checked="true"
+                  android:id="@+id/chb_ctl_1"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+        <RadioGroup android:layout_width="match_parent" android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/rg_ctl_1">
+            <RadioButton android:layout_width="80dp" android:layout_height="40dp"
+                         android:text="Fish"
+                         android:id="@+id/rb_ctl_1"/>
+            <RadioButton android:layout_width="90dp" android:layout_height="40dp"
+                         android:text="Chicken"
+                         android:id="@+id/rb_ctl_2"/>
+            <RadioButton android:layout_width="80dp" android:layout_height="40dp"
+                         android:text="Steak"
+                         android:id="@+id/rb_ctl_3"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp">
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小按钮"
+                android:id="@+id/button"/>
+        <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="关闭中(开启)"
+                android:textOn="开启中(关闭)"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp">
+        <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="50"
+                android:secondaryProgress="75"
+                android:layout_gravity="center_horizontal"/>
+        <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="50"
+                android:secondaryProgress="75"
+                android:layout_gravity="center_horizontal"/>
+        <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="50"
+                android:secondaryProgress="75"
+                android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp">
+        <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="50"
+                android:secondaryProgress="75"
+                android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp">
+        <SeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="100"
+                android:progress="40"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp">
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp">
+        <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="1"
+                android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+</LinearLayout>

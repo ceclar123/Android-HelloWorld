@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--基础信息-->
+    <string name="app_name">布局管理</string>
+    <string name="loginName">登录名</string>
+    <string name="password">密码</string>
+    <string name="btnSubmit">登录</string>
+    <string name="city_select">请选择城市</string>
+    <string name="searchText">搜索</string>
+    <!--布局-->
+    <string name="LayoutFrame">单帧布局</string>
+    <string name="LayoutLinear">线性布局</string>
+    <string name="LayoutAbsolute">绝对布局</string>
+    <string name="LayoutRelative">相对布局</string>
+    <string name="LayoutTable">表格布局</string>
+    <string name="LayoutGrid">网格布局</string>
+    <!--控件-->
+    <string name="ControlText">文本控件</string>
+    <string name="ControlButton">按钮控件</string>
+    <string name="ControlImageView">图片控件</string>
+    <string name="ControlDateTime">时间控件</string>
+</resources>

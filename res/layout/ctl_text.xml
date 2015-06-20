@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:scrollbars="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp">
+                <TextView android:layout_width="60dp" android:layout_height="match_parent"
+                          android:text="TextView:" android:textColor="#ffff2c36"/>
+                <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                          android:text="http://www.baidu.com"
+                          android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp">
+                <EditText android:layout_width="100dp" android:layout_height="match_parent"
+                          android:text="EditText"/>
+                <EditText android:layout_width="100dp" android:layout_height="match_parent"
+                          android:inputType="number"/>
+                <EditText android:layout_width="100dp" android:layout_height="match_parent"
+                          android:inputType="phone"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp">
+                <AutoCompleteTextView android:layout_width="match_parent"
+                                      android:layout_height="match_parent"
+                                      android:text="AutoCompleteTextView"
+                                      android:id="@+id/actv_ctl_1"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp">
+                <MultiAutoCompleteTextView android:layout_width="match_parent"
+                                           android:layout_height="40dp"
+                                           android:text="MultiAutoCompleteTextView"
+                                           android:id="@+id/mactv_ctl_1"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                          android:orientation="horizontal">
+                <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="大文本"
+                        android:id="@+id/textView"/>
+                <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="中文本"
+                        android:id="@+id/textView2"/>
+                <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="小文本"
+                        android:id="@+id/textView3"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                          android:orientation="horizontal">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="密码"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:ems="10"
+                        android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                          android:orientation="horizontal">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="密码数字"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberPassword"
+                        android:ems="10"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                          android:orientation="horizontal">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="邮箱"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                          android:orientation="horizontal">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="电话"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:ems="10"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                          android:orientation="horizontal">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="邮政编码"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPostalAddress"
+                        android:ems="10" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                          android:orientation="horizontal">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="多行文本"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textMultiLine"
+                        android:ems="10"
+                        android:minLines="1"
+                        android:maxLines="5"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                          android:orientation="horizontal">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DateTime"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:ems="10" android:layout_weight="1"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="time"
+                        android:ems="10" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                          android:orientation="horizontal">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="数字"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10" android:layout_weight="1"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberSigned"
+                        android:ems="10" android:layout_weight="1"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
