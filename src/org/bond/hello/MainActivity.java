@@ -128,91 +128,96 @@ public class MainActivity extends Activity implements View.OnClickListener {
         switch (v.getId()) {
             //布局
             case R.id.btn_lay_frame:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.layout.Frame.class);
                 this.startActivity(intent);
                 break;
 
             case R.id.btn_lay_linear:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.layout.Linear.class);
                 this.startActivity(intent);
                 break;
 
             case R.id.btn_lay_absolue:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.layout.Absolute.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_lay_relative:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.layout.Relative.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_lay_table:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.layout.Table.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_lay_grid:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.layout.Grid.class);
                 this.startActivity(intent);
                 break;
             //控件
             case R.id.btn_ctl_text:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.control.ControlText.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_ctl_button:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.control.ControlButton.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_ctl_imageView:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.control.ControlImageView.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_ctl_dateTime:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.control.ControlDateTime.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_ctl_webView:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.control.ControlWebView.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_ctl_spinner:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.control.ControlSpinner.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_ctl_listView:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.control.ControlListView.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_ctl_gridView:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.control.ControlGridView.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_ctl_suDoku:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.control.ControlGridView_SuDoKu.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_ctl_gallery:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.control.ControlGallery.class);
                 this.startActivity(intent);
                 break;
             case R.id.btn_ctl_http:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.http.Main.class);
+                this.startActivity(intent);
+                break;
+            case R.id.btn_intent:
+                intent = new Intent();
+                intent.setClass(this, org.bond.hello.intent.Main.class);
                 this.startActivity(intent);
                 break;
 

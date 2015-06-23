@@ -33,8 +33,38 @@ public class Main extends Activity implements View.OnClickListener {
         Intent intent = null;
         switch (v.getId()) {
             case R.id.btn_load_image:
-                intent = new Intent(Intent.ACTION_VIEW);
+                intent = new Intent();
                 intent.setClass(this, org.bond.hello.http.DownloadImage.class);
+                this.startActivity(intent);
+                break;
+            case R.id.btn_html_view:
+                intent = new Intent();
+                intent.setClass(this, org.bond.hello.http.HtmlView.class);
+                this.startActivity(intent);
+                break;
+            case R.id.btn_http_restful:
+                intent = new Intent();
+                intent.setClass(this, org.bond.hello.http.Restful.class);
+                this.startActivity(intent);
+                break;
+            case R.id.btn_async_http:
+                intent = new Intent();
+                intent.setClass(this, org.bond.hello.http.Async.class);
+                this.startActivity(intent);
+                break;
+            case R.id.btn_upload_file:
+                intent = new Intent();
+                intent.setClass(this, org.bond.hello.http.UploadFile.class);
+                this.startActivity(intent);
+                break;
+            case R.id.btn_smart_image:
+                intent = new Intent();
+                intent.setClass(this, org.bond.hello.http.SmartImage.class);
+                this.startActivity(intent);
+                break;
+            case R.id.btn_mthread_download:
+                intent = new Intent();
+                intent.setClass(this, org.bond.hello.http.MThreadDownload.class);
                 this.startActivity(intent);
                 break;
 

@@ -12,21 +12,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:textAlignment="center"
-                android:text="加载图片"
-                android:id="@+id/btn_load_image"/>
+                android:text="普通应用"
+                android:id="@+id/btn_open_normal"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:textAlignment="center"
-                android:text="Html查看"
-                android:id="@+id/btn_html_view"/>
+                android:text="系统应用"
+                android:id="@+id/btn_open_system"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:textAlignment="center"
-                android:text="Http请求"
-                android:id="@+id/btn_http_restful"/>
-
+                android:text="隐式意图"
+                android:id="@+id/btn_implicit_intent"/>
     </LinearLayout>
     <LinearLayout android:layout_width="fill_parent" android:layout_height="40dp"
                   android:orientation="horizontal"
@@ -36,30 +35,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:textAlignment="center"
-                android:text="异步Http"
-                android:id="@+id/btn_async_http"/>
+                android:text="发送短信"
+                android:id="@+id/btn_send_sms"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:textAlignment="center"
-                android:text="上传文件"
-                android:id="@+id/btn_upload_file"/>
-        <Button
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:textAlignment="center"
-                android:text="SmartImage"
-                android:id="@+id/btn_smart_image"/>
-    </LinearLayout>
-    <LinearLayout android:layout_width="fill_parent" android:layout_height="40dp"
-                  android:orientation="horizontal"
-                  android:layout_marginTop="2dp"
-                  android:layout_marginBottom="2dp">
-        <Button
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:textAlignment="center"
-                android:text="多线程下载"
-                android:id="@+id/btn_mthread_download"/>
+                android:text="Activity结果"
+                android:id="@+id/btn_activity_result"/>
     </LinearLayout>
 </LinearLayout>

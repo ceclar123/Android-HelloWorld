@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <EditText android:id="@+id/txtFilePath" android:layout_width="match_parent"
+              android:padding="3dp" android:layout_margin="3dp"
+              android:layout_height="wrap_content" android:hint="文件路径"
+              android:text="/sdcard/JavaLog.txt"/>
+    <Button android:id="@+id/btnUpload" android:layout_width="match_parent"
+            android:padding="3dp" android:layout_margin="3dp"
+            android:layout_height="wrap_content" android:text="上传"/>
+
+</LinearLayout>

@@ -20,7 +20,7 @@ public class HttpURLConnectionUtil {
 
     private static String prepareParam(Map<String, Object> paramMap) {
         StringBuffer sb = new StringBuffer();
-        if (paramMap.isEmpty()) {
+        if (paramMap == null || paramMap.isEmpty()) {
             return "";
         } else {
             for (String key : paramMap.keySet()) {
@@ -56,6 +56,7 @@ public class HttpURLConnectionUtil {
         conn.setRequestProperty("Charset", "UTF-8");//设置字符集
         conn.setRequestProperty("Content-Length", String.valueOf(paramStr.length()));//设置文件的总长度
         conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");//设置文件类型
+        conn.setRequestProperty("User-Agent", "Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; Nexus One Build/FRG83) AppleWebKit/533.1(KHTML, like Gecko)Version / 4.0 Mobile Safari/533.1");
 
         OutputStream os = conn.getOutputStream();
         os.write(paramStr.toString().getBytes("UTF-8"));
@@ -72,7 +73,7 @@ public class HttpURLConnectionUtil {
             }
             String line;
             while ((line = br.readLine()) != null) {
-                result += "/n" + line;
+                result += "\n" + line;
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -105,8 +106,10 @@ public class HttpURLConnectionUtil {
 
         URL url = new URL(urlStr);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-        conn.setRequestMethod(SERVLET_PUT);
+        conn.setRequestMethod(SERVLET_GET);
         conn.setRequestProperty("Content-Type", "text/html; charset=UTF-8");
+        conn.setRequestProperty("Connection", "Keep-Alive");//维持长连接
+        conn.setRequestProperty("User-Agent", "Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; Nexus One Build/FRG83) AppleWebKit/533.1(KHTML, like Gecko)Version / 4.0 Mobile Safari/533.1");
         conn.connect();
 
         String result = "";
@@ -120,7 +123,7 @@ public class HttpURLConnectionUtil {
             }
             String line;
             while ((line = br.readLine()) != null) {
-                result += "/n" + line;
+                result += "\n" + line;
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -166,7 +169,7 @@ public class HttpURLConnectionUtil {
             }
             String line;
             while ((line = br.readLine()) != null) {
-                result += "/n" + line;
+                result += "\n" + line;
             }
         } catch (Exception e) {
             e.printStackTrace();

@@ -8,6 +8,10 @@
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <!--读取手机联系人-->
     <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    <!--写存储卡权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <!--访问网络状态-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name="MainActivity"
                   android:label="@string/app_name">
@@ -34,6 +38,33 @@
         <activity android:name=".control.ControlGridView_SuDoKu"/>
         <activity android:name=".control.ControlGallery"/>
         <activity android:name=".http.Main"/>
-        <activity android:name=".http.DownloadImage"/>
+        <!--landscape水平方向-->
+        <!--portrait垂直方向-->
+        <!--指定布局方位,防止Activity销毁重建-->
+        <activity android:name=".http.DownloadImage" android:screenOrientation="landscape"
+                  android:configChanges="keyboard|screenSize"/>
+        <activity android:name=".http.HtmlView"/>
+        <activity android:name=".http.Restful"/>
+        <activity android:name=".http.Async"/>
+        <activity android:name=".http.UploadFile"/>
+        <activity android:name=".http.SmartImage">
+            <intent-filter>
+                <!--可自定义动作android.intent.action.VIEW-->
+                <action android:name="org.bond.hello.action.XXX"></action>
+                <!--默认android.intent.category.DEFAULT-->
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <!--数据格式bond:234122-->
+                <!--tel:13576541234-->
+                <!--vnd.android.cursor.dir-->
+                <data android:mimeType="vnd.android.cursor.item/hello" android:scheme="bond"></data>
+            </intent-filter>
+        </activity>
+        <activity android:name=".http.MThreadDownload"/>
+        <!--singleTop栈顶有了就不重新创建(浏览器书签,短信发送)-->
+        <!--singleTask检查任务栈,清空该Activity上面所有东西(浏览器主Activity)-->
+        <!--singleInstance在整个手机中只会有一个实例存在(来电界面,紧急呼叫)-->
+        <activity android:name=".intent.Main" android:launchMode="singleTop"/>
+        <!--指定主题-->
+        <activity android:name=".intent.IntentResult" android:theme="@android:style/Theme.Dialog"/>
     </application>
 </manifest>
