@@ -220,6 +220,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 intent.setClass(this, org.bond.hello.intent.Main.class);
                 this.startActivity(intent);
                 break;
+            case R.id.btn_receiver:
+                intent = new Intent();
+                intent.setClass(this, org.bond.hello.receiver.Main.class);
+                this.startActivity(intent);
+                break;
 
 
             default:

@@ -12,6 +12,10 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
     <!--访问网络状态-->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <!--监听外拨电话号码-->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"></uses-permission>
+    <!--短信接收-->
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name="MainActivity"
                   android:label="@string/app_name">
@@ -66,5 +70,19 @@
         <activity android:name=".intent.Main" android:launchMode="singleTop"/>
         <!--指定主题-->
         <activity android:name=".intent.IntentResult" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".receiver.Main"/>
+        <activity android:name=".receiver.IpNumberSet"/>
+        <receiver android:name=".receiver.OutCallReceiver">
+            <intent-filter>
+                <!--新的外拨电话-->
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"></action>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.SmsReceiver">
+            <!--1000:优先级最高;-1000优先级最低-->
+            <intent-filter android:priority="1000">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"></action>
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>
