@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="40dp"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="2dp"
+                  android:layout_marginBottom="2dp">
+        <Button
+                android:id="@+id/btn_load_big_image"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAlignment="center"
+                android:text="加载大图"></Button>
+        <Button
+                android:id="@+id/btn_gallery_image"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAlignment="center"
+                android:text="Gallery取图"></Button>
+        <Button
+                android:id="@+id/btn_draw_girl"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAlignment="center"
+                android:text="撕开绘图"></Button>
+    </LinearLayout>
+</LinearLayout>

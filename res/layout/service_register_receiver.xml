@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:onClick="btnStart_Click" android:text="启动服务"/>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:onClick="btnStop_Click" android:text="停止服务"/>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:onClick="btnSend_Click" android:text="发送广播"/>
+</LinearLayout>

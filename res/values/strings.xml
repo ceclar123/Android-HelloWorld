@@ -27,4 +27,9 @@
     <string name="ControlButton">按钮控件</string>
     <string name="ControlImageView">图片控件</string>
     <string name="ControlDateTime">时间控件</string>
+    <string name="local_service_started">本地测试服务启动</string>
+    <string name="local_service_stopped">本地测试服务停止</string>
+    <string name="local_service_label">本地测试服务</string>
+    <string name="local_service_connected">本地测试服务连接</string>
+    <string name="local_service_disconnected">本地测试服务断开</string>
 </resources>

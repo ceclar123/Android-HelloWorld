@@ -16,6 +16,8 @@
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"></uses-permission>
     <!--短信接收-->
     <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    <!--读取电话状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name="MainActivity"
                   android:label="@string/app_name">
@@ -24,34 +26,34 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".layout.Linear"/>
-        <activity android:name=".layout.Frame"/>
-        <activity android:name=".layout.Absolute"/>
-        <activity android:name=".layout.Relative"/>
-        <activity android:name=".layout.Table"/>
-        <activity android:name=".layout.Grid"/>
-        <activity android:name=".control.ControlText"/>
-        <activity android:name=".control.ControlButton"/>
-        <activity android:name=".control.ControlImageView"/>
-        <activity android:name=".control.ControlDateTime"/>
-        <activity android:name=".control.ControlWebView"/>
-        <activity android:name=".control.ControlSpinner"/>
-        <activity android:name=".control.ControlListView"/>
-        <activity android:name=".control.ControlListView1"/>
-        <activity android:name=".control.ControlGridView"/>
-        <activity android:name=".control.ControlGridView_SuDoKu"/>
-        <activity android:name=".control.ControlGallery"/>
-        <activity android:name=".http.Main"/>
+        <activity android:name=".activity.layout.Linear"/>
+        <activity android:name=".activity.layout.Frame"/>
+        <activity android:name=".activity.layout.Absolute"/>
+        <activity android:name=".activity.layout.Relative"/>
+        <activity android:name=".activity.layout.Table"/>
+        <activity android:name=".activity.layout.Grid"/>
+        <activity android:name=".activity.control.ControlText"/>
+        <activity android:name=".activity.control.ControlButton"/>
+        <activity android:name=".activity.control.ControlImageView"/>
+        <activity android:name=".activity.control.ControlDateTime"/>
+        <activity android:name=".activity.control.ControlWebView"/>
+        <activity android:name=".activity.control.ControlSpinner"/>
+        <activity android:name=".activity.control.ControlListView"/>
+        <activity android:name=".activity.control.ControlListView1"/>
+        <activity android:name=".activity.control.ControlGridView"/>
+        <activity android:name=".activity.control.ControlGridView_SuDoKu"/>
+        <activity android:name=".activity.control.ControlGallery"/>
+        <activity android:name=".activity.http.Main"/>
         <!--landscape水平方向-->
         <!--portrait垂直方向-->
         <!--指定布局方位,防止Activity销毁重建-->
-        <activity android:name=".http.DownloadImage" android:screenOrientation="landscape"
+        <activity android:name=".activity.http.DownloadImage" android:screenOrientation="landscape"
                   android:configChanges="keyboard|screenSize"/>
-        <activity android:name=".http.HtmlView"/>
-        <activity android:name=".http.Restful"/>
-        <activity android:name=".http.Async"/>
-        <activity android:name=".http.UploadFile"/>
-        <activity android:name=".http.SmartImage">
+        <activity android:name=".activity.http.HtmlView"/>
+        <activity android:name=".activity.http.Restful"/>
+        <activity android:name=".activity.http.Async"/>
+        <activity android:name=".activity.http.UploadFile"/>
+        <activity android:name=".activity.http.SmartImage">
             <intent-filter>
                 <!--可自定义动作android.intent.action.VIEW-->
                 <action android:name="org.bond.hello.action.XXX"></action>
@@ -63,15 +65,25 @@
                 <data android:mimeType="vnd.android.cursor.item/hello" android:scheme="bond"></data>
             </intent-filter>
         </activity>
-        <activity android:name=".http.MThreadDownload"/>
+        <activity android:name=".activity.http.MThreadDownload"/>
         <!--singleTop栈顶有了就不重新创建(浏览器书签,短信发送)-->
         <!--singleTask检查任务栈,清空该Activity上面所有东西(浏览器主Activity)-->
         <!--singleInstance在整个手机中只会有一个实例存在(来电界面,紧急呼叫)-->
-        <activity android:name=".intent.Main" android:launchMode="singleTop"/>
+        <activity android:name=".activity.intent.Main" android:launchMode="singleTop"/>
         <!--指定主题-->
-        <activity android:name=".intent.IntentResult" android:theme="@android:style/Theme.Dialog"/>
-        <activity android:name=".receiver.Main"/>
-        <activity android:name=".receiver.IpNumberSet"/>
+        <activity android:name=".activity.intent.IntentResult" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".activity.receiver.Main"/>
+        <activity android:name=".activity.receiver.IpNumberSet"/>
+        <activity android:name=".activity.service.StartPhoneStatus"/>
+        <activity android:name=".activity.service.Main"/>
+        <activity android:name=".activity.service.MusicPlayer"/>
+        <activity android:name=".activity.service.BindLocalService"/>
+        <activity android:name=".activity.service.BindRemoteService"/>
+        <activity android:name=".activity.service.RegisterReceiver"/>
+        <activity android:name=".activity.image.Main"/>
+        <activity android:name=".activity.image.LoadBigImage"/>
+        <activity android:name=".activity.image.GalleryImage"/>
+        <activity android:name=".activity.image.DrawGirl"/>
         <receiver android:name=".receiver.OutCallReceiver">
             <intent-filter>
                 <!--新的外拨电话-->
@@ -84,5 +96,13 @@
                 <action android:name="android.provider.Telephony.SMS_RECEIVED"></action>
             </intent-filter>
         </receiver>
+        <service android:name=".service.PhoneStatusService"/>
+        <service android:name=".service.MusicPlayerService">
+            <intent-filter>
+                <action android:name="org.bond.hello.service.MusicPlayerService"></action>
+            </intent-filter>
+        </service>
+        <service android:name=".service.LocalService"/>
+        <service android:name=".service.ReceiverService"/>
     </application>
 </manifest>
