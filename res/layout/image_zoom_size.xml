@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="缩小" android:onClick="btnDecrease_Click"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="放大" android:onClick="btnEnlarge_Click"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="拉伸" android:onClick="btnStretching_Click"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="旋转" android:onClick="btnRotate_Click"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/img_up" android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+    <ImageView android:id="@+id/img_down" android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+</LinearLayout>

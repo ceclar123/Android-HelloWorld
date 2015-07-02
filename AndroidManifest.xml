@@ -84,6 +84,7 @@
         <activity android:name=".activity.image.LoadBigImage"/>
         <activity android:name=".activity.image.GalleryImage"/>
         <activity android:name=".activity.image.DrawGirl"/>
+        <activity android:name=".activity.image.ZoomSize"/>
         <receiver android:name=".receiver.OutCallReceiver">
             <intent-filter>
                 <!--新的外拨电话-->

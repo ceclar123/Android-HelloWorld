@@ -56,6 +56,12 @@
           <theme>@android:style/Theme.Holo</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/image_zoom_size.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/res/layout/intent_main.xml">
         <config>
           <device>Nexus 4</device>
@@ -98,70 +104,13 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: org.bond.hello" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbc7d97e-db15-4939-810e-9d92117a2e49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/after0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/before0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/hongri.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/shanghai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/service/BindLocalService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/service/BindRemoteService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/image/DrawGirl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/image/GalleryImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/ghost/hello/service/IService.aidl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/image/LoadBigImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/service/LocalService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/image/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/service/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/service/MusicPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/service/MusicPlayerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/service/PhoneStatusService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/service/ReceiverService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/service/RegisterReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/service/StartPhoneStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/image_draw_girl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/image_gallery_image.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/image_load_big_image.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/image_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/service_bind_local_service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/service_bind_remote_service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/service_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/service_music_player.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/service_register_receiver.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/service_start_phone_status.xml" />
+    <list default="true" id="dbc7d97e-db15-4939-810e-9d92117a2e49" name="Default" comment="20150701">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/image/ZoomSize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/image_zoom_size.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/bond/hello/MainActivity.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/bond/hello/activity/image/Main.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/image/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/image_main.xml" afterPath="$PROJECT_DIR$/res/layout/image_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\control\ControlButton.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/control/ControlButton.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\control\ControlDateTime.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/control/ControlDateTime.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\control\ControlGallery.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/control/ControlGallery.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\control\ControlGridView.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/control/ControlGridView.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\control\ControlGridView_SuDoKu.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/control/ControlGridView_SuDoKu.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\control\ControlImageView.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/control/ControlImageView.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\control\ControlListView.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/control/ControlListView.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\control\ControlListView1.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/control/ControlListView1.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\control\ControlSpinner.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/control/ControlSpinner.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\control\ControlText.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/control/ControlText.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\control\ControlWebView.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/control/ControlWebView.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\http\Async.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/http/Async.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\http\DownloadImage.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/http/DownloadImage.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\http\HtmlView.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/http/HtmlView.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\http\MThreadDownload.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/http/MThreadDownload.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\http\Main.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/http/Main.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\http\Restful.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/http/Restful.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\http\SmartImage.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/http/SmartImage.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\http\UploadFile.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/http/UploadFile.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\intent\IntentResult.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/intent/IntentResult.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\intent\Main.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/intent/Main.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\layout\Absolute.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/layout/Absolute.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\layout\Frame.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/layout/Frame.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\layout\Grid.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/layout/Grid.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\layout\Linear.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/layout/Linear.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\layout\Relative.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/layout/Relative.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\layout\Table.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/layout/Table.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\receiver\IpNumberSet.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/receiver/IpNumberSet.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\receiver\Main.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/activity/receiver/Main.java" />
     </list>
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -189,24 +138,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="image_draw_girl.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/image_draw_girl.xml">
+      <file leaf-file-name="image_zoom_size.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/image_zoom_size.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="304">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state vertical-scroll-proportion="-4.098039" vertical-offset="114" max-vertical-offset="551">
+              <caret line="17" column="66" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawGirl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/bond/hello/activity/image/DrawGirl.java">
+      <file leaf-file-name="ZoomSize.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/bond/hello/activity/image/ZoomSize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2657581" vertical-offset="737" max-vertical-offset="1691">
-              <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.7076923" vertical-offset="954" max-vertical-offset="1577">
+              <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -232,14 +181,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/org/bond/hello/http/UploadFile.java" />
-        <option value="$PROJECT_DIR$/res/layout/http_smart_image.xml" />
         <option value="$PROJECT_DIR$/src/com/loopj/android/image/SmartImageView.java" />
         <option value="$PROJECT_DIR$/res/layout/http_main.xml" />
         <option value="$PROJECT_DIR$/src/org/bond/hello/http/MThreadDownload.java" />
         <option value="$PROJECT_DIR$/res/layout/http_mthread_download.xml" />
         <option value="$PROJECT_DIR$/src/org/bond/hello/http/SmartImage.java" />
-        <option value="$PROJECT_DIR$/res/layout/intent_main.xml" />
         <option value="$PROJECT_DIR$/res/layout/intent_result.xml" />
         <option value="$PROJECT_DIR$/src/org/bond/hello/intent/Main.java" />
         <option value="$PROJECT_DIR$/src/org/bond/hello/intent/IntentResult.java" />
@@ -279,10 +225,13 @@
         <option value="$PROJECT_DIR$/src/org/bond/hello/activity/image/LoadBigImage.java" />
         <option value="$PROJECT_DIR$/res/layout/image_gallery_image.xml" />
         <option value="$PROJECT_DIR$/src/org/bond/hello/activity/image/GalleryImage.java" />
-        <option value="$PROJECT_DIR$/res/layout/image_main.xml" />
-        <option value="$PROJECT_DIR$/src/org/bond/hello/activity/image/Main.java" />
         <option value="$PROJECT_DIR$/res/layout/image_draw_girl.xml" />
         <option value="$PROJECT_DIR$/src/org/bond/hello/activity/image/DrawGirl.java" />
+        <option value="$PROJECT_DIR$/src/org/bond/hello/activity/image/Main.java" />
+        <option value="$PROJECT_DIR$/res/layout/intent_main.xml" />
+        <option value="$PROJECT_DIR$/res/layout/image_main.xml" />
+        <option value="$PROJECT_DIR$/res/layout/image_zoom_size.xml" />
+        <option value="$PROJECT_DIR$/src/org/bond/hello/activity/image/ZoomSize.java" />
       </list>
     </option>
   </component>
@@ -320,7 +269,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -467,8 +415,27 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -792,7 +759,8 @@
       <workItem from="1435486268459" duration="804000" />
       <workItem from="1435487427059" duration="11791000" />
       <workItem from="1435758494507" duration="5034000" />
-      <workItem from="1435763827430" duration="24000" />
+      <workItem from="1435763827430" duration="43000" />
+      <workItem from="1435842867315" duration="4808000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1434775903173</created>
@@ -814,11 +782,15 @@
       <created>1435157694476</created>
       <updated>1435157694476</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="20150701">
+      <created>1435763866928</created>
+      <updated>1435763866928</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207124000" />
+    <option name="totallyTimeSpent" value="211951000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -847,43 +819,43 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20347957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50816995" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30228758" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19864048" sideWeight="0.50121653" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4101307" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34150326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4003044" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19864048" sideWeight="0.49878347" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19864048" sideWeight="0.49878347" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20347957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17772861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -901,8 +873,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2848" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -927,11 +899,12 @@
     <MESSAGE value="201606202342" />
     <MESSAGE value="201506232317" />
     <MESSAGE value="201506242254" />
-    <option name="LAST_COMMIT_MESSAGE" value="201506242254" />
+    <MESSAGE value="20150701" />
+    <option name="LAST_COMMIT_MESSAGE" value="20150701" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -939,27 +912,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/bond/hello/activity/receiver/IpNumberSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6820513" vertical-offset="0" max-vertical-offset="741">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/bond/hello/activity/service/StartPhoneStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16239317" vertical-offset="0" max-vertical-offset="585">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/bond/hello/activity/http/SmartImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4353147" vertical-offset="302" max-vertical-offset="874">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/receiver_main.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -1213,17 +1165,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/intent_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7977528" vertical-offset="429" max-vertical-offset="988">
-          <caret line="45" column="19" selection-start-line="29" selection-start-column="2" selection-end-line="45" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/bond/hello/activity/http/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7076923" vertical-offset="821" max-vertical-offset="1406">
@@ -1296,24 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/image_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5730337" vertical-offset="131" max-vertical-offset="665">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/bond/hello/activity/image/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61025643" vertical-offset="270" max-vertical-offset="1007">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/bond/hello/activity/image/LoadBigImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1235">
@@ -1356,8 +1279,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/bond/hello/activity/image/DrawGirl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2657581" vertical-offset="737" max-vertical-offset="1691">
-          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="1691">
+          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/bond/hello/activity/image/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6752137" vertical-offset="384" max-vertical-offset="1102">
+          <caret line="50" column="76" selection-start-line="50" selection-start-column="76" selection-end-line="50" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/AndroidSDK/sources/android-18/android/graphics/Bitmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.34871796" vertical-offset="11509" max-vertical-offset="25992">
+          <caret line="639" column="25" selection-start-line="639" selection-start-column="25" selection-end-line="639" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/image_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6797753" vertical-offset="321" max-vertical-offset="874">
+          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/intent_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39513108" vertical-offset="283" max-vertical-offset="988">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/image_zoom_size.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.098039" vertical-offset="114" max-vertical-offset="551">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/bond/hello/activity/image/ZoomSize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7076923" vertical-offset="954" max-vertical-offset="1577">
+          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
           <folding />
         </state>
       </provider>
