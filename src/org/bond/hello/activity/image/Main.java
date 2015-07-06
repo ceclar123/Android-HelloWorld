@@ -51,6 +51,11 @@ public class Main extends Activity implements View.OnClickListener {
                 intent.setClass(this, org.bond.hello.activity.image.ZoomSize.class);
                 this.startActivity(intent);
                 break;
+            case R.id.btn_image_merge:
+                intent = new Intent();
+                intent.setClass(this, org.bond.hello.activity.image.MergeImage.class);
+                this.startActivity(intent);
+                break;
 
 
             default:

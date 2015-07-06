@@ -24,7 +24,7 @@ public class ZoomSize extends Activity {
         imgUp = (ImageView) this.findViewById(R.id.img_up);
         imgDown = (ImageView) this.findViewById(R.id.img_down);
 
-        bitMap = BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher);
+        bitMap = BitmapFactory.decodeResource(getResources(), R.drawable.panda_72);
         imgUp.setImageBitmap(bitMap);
     }
 
@@ -79,6 +79,45 @@ public class ZoomSize extends Activity {
         //matrix.setRotate(17f);//0-360(以左上角为圆心)
         Random rd = new Random();
         matrix.setRotate(rd.nextInt(360), bitMap.getWidth() / 2, bitMap.getHeight() / 2);//指定圆心
+        canvas.drawBitmap(bitMap, matrix, paint);
+        imgDown.setImageBitmap(alterBitmap);
+    }
+
+    public void btnMove_Click(View view) {
+        Bitmap alterBitmap = Bitmap.createBitmap(bitMap.getWidth() + 10, bitMap.getHeight() + 10, bitMap.getConfig());
+        Canvas canvas = new Canvas(alterBitmap);
+        Paint paint = new Paint();
+        paint.setColor(Color.BLACK);
+        paint.setAntiAlias(true);//消除锯齿,图片效果更好一点
+        Matrix matrix = new Matrix();
+        matrix.setTranslate(10f, 10f);
+        //matrix.postTranslate(10f,10f);
+        canvas.drawBitmap(bitMap, matrix, paint);
+        imgDown.setImageBitmap(alterBitmap);
+    }
+
+    public void btnMirror_Click(View view) {
+        Bitmap alterBitmap = Bitmap.createBitmap(bitMap.getWidth() + 10, bitMap.getHeight() + 10, bitMap.getConfig());
+        Canvas canvas = new Canvas(alterBitmap);
+        Paint paint = new Paint();
+        paint.setColor(Color.BLACK);
+        paint.setAntiAlias(true);//消除锯齿,图片效果更好一点
+        Matrix matrix = new Matrix();
+        matrix.setScale(-1f, 1f);//水品方向对折
+        matrix.postTranslate(bitMap.getWidth(), 0);//坐标在移动回来
+        canvas.drawBitmap(bitMap, matrix, paint);
+        imgDown.setImageBitmap(alterBitmap);
+    }
+
+    public void btnImage_Click(View view) {
+        Bitmap alterBitmap = Bitmap.createBitmap(bitMap.getWidth() + 10, bitMap.getHeight() + 10, bitMap.getConfig());
+        Canvas canvas = new Canvas(alterBitmap);
+        Paint paint = new Paint();
+        paint.setColor(Color.BLACK);
+        paint.setAntiAlias(true);//消除锯齿,图片效果更好一点
+        Matrix matrix = new Matrix();
+        matrix.setScale(1f, -1f);
+        matrix.postTranslate(0f, bitMap.getHeight());
         canvas.drawBitmap(bitMap, matrix, paint);
         imgDown.setImageBitmap(alterBitmap);
     }
