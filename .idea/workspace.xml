@@ -104,94 +104,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: org.bond.hello" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbc7d97e-db15-4939-810e-9d92117a2e49" name="Default" comment="20150706">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/textback.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/topback.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/Absolute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widgets/examples/BounceView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/provider/DBHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/provider/DataProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widgets/examples/HandlerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widgets/examples/HandlerThreadActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/LinearLayoutActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/LinearLayoutComplexActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/Linear_Table_LayoutComplexActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/provider/ListDataProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widgets/MainFrameActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/extend/MarqueeTextView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/RelativeLayoutActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/RelativeLayoutComplexActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/provider/StudentContentProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/provider/Students.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/TableLayoutActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/TextViewActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/provider/TreeDataProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/bond/hello/model/TreeElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/accounts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/color.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/ctl_textview_example.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/hanlderthread_example.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/linear_tablelayout_complex_example.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/linearlayout_complex_example.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/linearlayout_example.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/mainframe.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/relativelayout_complex_example.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/relativelayout_example.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/sended.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/tablelayout_example.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/task.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/loopj/android/http/Base64.java" afterPath="$PROJECT_DIR$/src/com/loopj/android/http/Base64.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/bond/hello/service/LocalService.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/service/LocalService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/bond/hello/MainActivity.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+    <list default="true" id="dbc7d97e-db15-4939-810e-9d92117a2e49" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/org/bond/hello/BuildConfig.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/BuildConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/org/bond/hello/Manifest.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/Manifest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/org/bond/hello/R.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/R.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\control\ControlButton.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/ControlButton.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\control\ControlDateTime.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/ControlDateTime.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\control\ControlGallery.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/ControlGallery.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\control\ControlGridView.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/ControlGridView.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\control\ControlGridView_SuDoKu.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/ControlGridView_SuDoKu.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\control\ControlImageView.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/ControlImageView.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\control\ControlListView.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/ControlListView.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\control\ControlListView1.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/ControlListView1.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\control\ControlSpinner.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/ControlSpinner.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\control\ControlText.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/ControlText.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\control\ControlWebView.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/control/ControlWebView.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\http\Async.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/http/Async.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\http\DownloadImage.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/http/DownloadImage.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\http\HtmlView.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/http/HtmlView.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\http\MThreadDownload.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/http/MThreadDownload.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\http\Main.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/http/Main.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\http\Restful.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/http/Restful.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\http\SmartImage.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/http/SmartImage.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\http\UploadFile.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/http/UploadFile.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\image\DrawGirl.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/image/DrawGirl.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\image\GalleryImage.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/image/GalleryImage.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\image\LoadBigImage.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/image/LoadBigImage.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\image\Main.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/image/Main.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\image\MergeImage.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/image/MergeImage.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\image\ZoomSize.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/image/ZoomSize.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\intent\IntentResult.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/intent/IntentResult.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\intent\Main.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/intent/Main.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\layout\Frame.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/Frame.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\layout\Grid.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/Grid.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\layout\Linear.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/Linear.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\layout\Relative.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/Relative.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\layout\Table.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/layout/Table.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\receiver\IpNumberSet.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/receiver/IpNumberSet.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\receiver\Main.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/receiver/Main.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\service\BindLocalService.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/service/BindLocalService.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\service\BindRemoteService.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/service/BindRemoteService.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\service\Main.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/service/Main.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\service\MusicPlayer.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/service/MusicPlayer.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\service\RegisterReceiver.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/service/RegisterReceiver.java" />
-      <change type="MOVED" beforePath="D:\AndroidWorkspace\HelloWorld\src\org\bond\hello\activity\service\StartPhoneStatus.java" afterPath="$PROJECT_DIR$/src/org/bond/hello/widget/service/StartPhoneStatus.java" />
     </list>
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -925,7 +839,7 @@
       <workItem from="1435842867315" duration="4830000" />
       <workItem from="1436189365644" duration="3474000" />
       <workItem from="1436792571766" duration="4927000" />
-      <workItem from="1439385678585" duration="5203000" />
+      <workItem from="1439385678585" duration="5230000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1434775903173</created>
@@ -959,11 +873,15 @@
       <created>1436194000062</created>
       <updated>1436194000062</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="20150812">
+      <created>1439390936909</created>
+      <updated>1439390936909</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225577000" />
+    <option name="totallyTimeSpent" value="225604000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1000,7 +918,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34150326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24320242" sideWeight="0.49878347" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24320242" sideWeight="0.49878347" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1075,7 +993,8 @@
     <MESSAGE value="20150701" />
     <MESSAGE value="20150702" />
     <MESSAGE value="20150706" />
-    <option name="LAST_COMMIT_MESSAGE" value="20150706" />
+    <MESSAGE value="20150812" />
+    <option name="LAST_COMMIT_MESSAGE" value="20150812" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
