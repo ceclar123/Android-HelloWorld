@@ -16,7 +16,7 @@
 
 package com.loopj.android.http;
 
-import org.bond.hello.widget.BuildConfig;
+import org.bond.hello.BuildConfig;
 
 import java.io.UnsupportedEncodingException;
 
