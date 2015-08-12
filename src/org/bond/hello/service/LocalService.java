@@ -10,7 +10,7 @@ import android.os.IBinder;
 import android.util.Log;
 import android.widget.Toast;
 import org.bond.hello.R;
-import org.bond.hello.activity.http.DownloadImage;
+import org.bond.hello.widget.http.DownloadImage;
 
 /**
  * Created by Administrator on 2015-6-27.

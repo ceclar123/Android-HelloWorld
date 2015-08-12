@@ -26,34 +26,34 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.layout.Linear"/>
-        <activity android:name=".activity.layout.Frame"/>
-        <activity android:name=".activity.layout.Absolute"/>
-        <activity android:name=".activity.layout.Relative"/>
-        <activity android:name=".activity.layout.Table"/>
-        <activity android:name=".activity.layout.Grid"/>
-        <activity android:name=".activity.control.ControlText"/>
-        <activity android:name=".activity.control.ControlButton"/>
-        <activity android:name=".activity.control.ControlImageView"/>
-        <activity android:name=".activity.control.ControlDateTime"/>
-        <activity android:name=".activity.control.ControlWebView"/>
-        <activity android:name=".activity.control.ControlSpinner"/>
-        <activity android:name=".activity.control.ControlListView"/>
-        <activity android:name=".activity.control.ControlListView1"/>
-        <activity android:name=".activity.control.ControlGridView"/>
-        <activity android:name=".activity.control.ControlGridView_SuDoKu"/>
-        <activity android:name=".activity.control.ControlGallery"/>
-        <activity android:name=".activity.http.Main"/>
+        <activity android:name=".widget.layout.Linear"/>
+        <activity android:name=".widget.layout.Frame"/>
+        <activity android:name=".widget.layout.Absolute"/>
+        <activity android:name=".widget.layout.Relative"/>
+        <activity android:name=".widget.layout.Table"/>
+        <activity android:name=".widget.layout.Grid"/>
+        <activity android:name=".widget.control.ControlText"/>
+        <activity android:name=".widget.control.ControlButton"/>
+        <activity android:name=".widget.control.ControlImageView"/>
+        <activity android:name=".widget.control.ControlDateTime"/>
+        <activity android:name=".widget.control.ControlWebView"/>
+        <activity android:name=".widget.control.ControlSpinner"/>
+        <activity android:name=".widget.control.ControlListView"/>
+        <activity android:name=".widget.control.ControlListView1"/>
+        <activity android:name=".widget.control.ControlGridView"/>
+        <activity android:name=".widget.control.ControlGridView_SuDoKu"/>
+        <activity android:name=".widget.control.ControlGallery"/>
+        <activity android:name=".widget.http.Main"/>
         <!--landscape水平方向-->
         <!--portrait垂直方向-->
         <!--指定布局方位,防止Activity销毁重建-->
-        <activity android:name=".activity.http.DownloadImage" android:screenOrientation="landscape"
+        <activity android:name=".widget.http.DownloadImage" android:screenOrientation="landscape"
                   android:configChanges="keyboard|screenSize"/>
-        <activity android:name=".activity.http.HtmlView"/>
-        <activity android:name=".activity.http.Restful"/>
-        <activity android:name=".activity.http.Async"/>
-        <activity android:name=".activity.http.UploadFile"/>
-        <activity android:name=".activity.http.SmartImage">
+        <activity android:name=".widget.http.HtmlView"/>
+        <activity android:name=".widget.http.Restful"/>
+        <activity android:name=".widget.http.Async"/>
+        <activity android:name=".widget.http.UploadFile"/>
+        <activity android:name=".widget.http.SmartImage">
             <intent-filter>
                 <!--可自定义动作android.intent.action.VIEW-->
                 <action android:name="org.bond.hello.action.XXX"></action>
@@ -65,27 +65,64 @@
                 <data android:mimeType="vnd.android.cursor.item/hello" android:scheme="bond"></data>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.http.MThreadDownload"/>
+        <activity android:name=".widget.http.MThreadDownload"/>
         <!--singleTop栈顶有了就不重新创建(浏览器书签,短信发送)-->
         <!--singleTask检查任务栈,清空该Activity上面所有东西(浏览器主Activity)-->
         <!--singleInstance在整个手机中只会有一个实例存在(来电界面,紧急呼叫)-->
-        <activity android:name=".activity.intent.Main" android:launchMode="singleTop"/>
+        <activity android:name=".widget.intent.Main" android:launchMode="singleTop"/>
         <!--指定主题-->
-        <activity android:name=".activity.intent.IntentResult" android:theme="@android:style/Theme.Dialog"/>
-        <activity android:name=".activity.receiver.Main"/>
-        <activity android:name=".activity.receiver.IpNumberSet"/>
-        <activity android:name=".activity.service.StartPhoneStatus"/>
-        <activity android:name=".activity.service.Main"/>
-        <activity android:name=".activity.service.MusicPlayer"/>
-        <activity android:name=".activity.service.BindLocalService"/>
-        <activity android:name=".activity.service.BindRemoteService"/>
-        <activity android:name=".activity.service.RegisterReceiver"/>
-        <activity android:name=".activity.image.Main"/>
-        <activity android:name=".activity.image.LoadBigImage"/>
-        <activity android:name=".activity.image.GalleryImage"/>
-        <activity android:name=".activity.image.DrawGirl"/>
-        <activity android:name=".activity.image.ZoomSize"/>
-        <activity android:name=".activity.image.MergeImage"/>
+        <activity android:name=".widget.intent.IntentResult" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".widget.receiver.Main"/>
+        <activity android:name=".widget.receiver.IpNumberSet"/>
+        <activity android:name=".widget.service.StartPhoneStatus"/>
+        <activity android:name=".widget.service.Main"/>
+        <activity android:name=".widget.service.MusicPlayer"/>
+        <activity android:name=".widget.service.BindLocalService"/>
+        <activity android:name=".widget.service.BindRemoteService"/>
+        <activity android:name=".widget.service.RegisterReceiver"/>
+        <activity android:name=".widget.image.Main"/>
+        <activity android:name=".widget.image.LoadBigImage"/>
+        <activity android:name=".widget.image.GalleryImage"/>
+        <activity android:name=".widget.image.DrawGirl"/>
+        <activity android:name=".widget.image.ZoomSize"/>
+        <activity android:name=".widget.image.MergeImage"/>
+        <activity android:name=".widgets.MainFrameActivity"/>
+        <activity
+                android:name=".widget.control.TextViewActivity"
+                android:label="@string/app_textview_example"></activity>
+        <activity
+                android:name=".widget.layout.LinearLayoutActivity"
+                android:label="@string/app_linearlayout_example"></activity>
+
+        <activity
+                android:name=".widget.layout.TableLayoutActivity"
+                android:label="@string/app_tablelayout_example"></activity>
+
+        <activity
+                android:name=".widget.layout.LinearLayoutComplexActivity"
+                android:label="@string/app_linearlayout_complex_example"></activity>
+
+        <activity
+                android:name=".widget.layout.Linear_Table_LayoutComplexActivity"
+                android:label="@string/app_linear_table_layout_complex_example"></activity>
+
+        <activity
+                android:name=".widget.layout.RelativeLayoutActivity"
+                android:label="@string/app_relative_layout_example"></activity>
+
+        <activity
+                android:name=".widget.layout.RelativeLayoutComplexActivity"
+                android:label="@string/app_relative_layout_complex_example"></activity>
+
+        <activity
+                android:name=".widgets.examples.HandlerActivity"
+                android:label="@string/app_handler_example"></activity>
+
+        <activity
+                android:name=".widgets.examples.HandlerThreadActivity"
+                android:label="@string/app_handlerthread_example"></activity>
+        <activity android:name=".widget.layout.Absolute"/>
+
         <receiver android:name=".receiver.OutCallReceiver">
             <intent-filter>
                 <!--新的外拨电话-->
