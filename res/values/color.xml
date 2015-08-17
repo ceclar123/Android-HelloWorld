@@ -5,4 +5,8 @@
     <color name="blue">#0000ff</color>
     <color name="green">#f0f0</color>
     <color name="main_back_ground_color">#ffff00</color>
+
+    <!-- 描边颜色 -->
+    <color name="border_clo">#ccc</color>
+    <color name="text_clo">#333</color>
 </resources>

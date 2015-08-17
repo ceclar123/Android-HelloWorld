@@ -121,7 +121,7 @@
         <activity
                 android:name=".widgets.examples.HandlerThreadActivity"
                 android:label="@string/app_handlerthread_example"></activity>
-        <activity android:name=".widget.layout.Absolute"/>
+        <activity android:name=".widget.layout.Setting"/>
 
         <receiver android:name=".receiver.OutCallReceiver">
             <intent-filter>

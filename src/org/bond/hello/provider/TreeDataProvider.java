@@ -63,12 +63,14 @@ public class TreeDataProvider implements DataProvider {
         TreeElement thirdElement0304 = new TreeElement("01_03_04", "Linear Table 组合布局", getIntent(Linear_Table_LayoutComplexActivity.class));
         TreeElement thirdElement0305 = new TreeElement("01_03_05", "RelitaveLayout 布局", getIntent(RelativeLayoutActivity.class));
         TreeElement thirdElement0306 = new TreeElement("01_03_06", "RelitaveLayout复杂示例", getIntent(RelativeLayoutComplexActivity.class));
+        TreeElement thirdElement0307 = new TreeElement("01_03_07", "Fragment示例Setting", getIntent(Setting.class));
         secondElement3.addChild(thirdElement0301);
         secondElement3.addChild(thirdElement0302);
         secondElement3.addChild(thirdElement0303);
         secondElement3.addChild(thirdElement0304);
         secondElement3.addChild(thirdElement0305);
         secondElement3.addChild(thirdElement0306);
+        secondElement3.addChild(thirdElement0307);
 
         TreeElement secondElement4_1 = new TreeElement("04_01", "Handler 定时移动小球示例", getIntent(HandlerActivity.class));
         TreeElement secondElement4_2 = new TreeElement("04_02", "HandlerThread 文件下载进度演示", getIntent(HandlerThreadActivity.class));
